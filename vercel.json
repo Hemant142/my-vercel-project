@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {
+        "source": "/clientapp/:path*",
+        "destination": "/clientapp/$1"
+      },
+      {
+        "source": "/thematic/:path*",
+        "destination": "/thematic/$1"
+      }
+    ]
+  }
+  
